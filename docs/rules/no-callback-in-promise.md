@@ -1,6 +1,6 @@
 # Disallow calling `cb()` inside of a `then()` (use [nodeify][] instead) (`promise/no-callback-in-promise`)
 
-✅ This rule will _warn_ in the `recommended` config.
+✅<sup>⚠️</sup> This rule will _warn_ in the `recommended` config.
 
 <!-- end auto-generated rule header -->
 

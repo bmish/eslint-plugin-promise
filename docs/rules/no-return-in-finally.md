@@ -1,6 +1,6 @@
 # Disallow return statements in `finally()` (`promise/no-return-in-finally`)
 
-✅ This rule will _warn_ in the `recommended` config.
+✅<sup>⚠️</sup> This rule will _warn_ in the `recommended` config.
 
 <!-- end auto-generated rule header -->
 
