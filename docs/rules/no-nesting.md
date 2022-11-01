@@ -1,6 +1,6 @@
 # Disallow nested `then()` or `catch()` statements (`promise/no-nesting`)
 
-✅<sup>⚠️</sup> This rule will _warn_ in the `recommended` config.
+✅<sup>⚠️</sup> This rule _warns_ in the `recommended` config.
 
 <!-- end auto-generated rule header -->
 
