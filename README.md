@@ -86,7 +86,7 @@ or start with the recommended rule set:
 
 | Name                                                                 | Description                                                                            | 💼                           | 🔧 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------- | :--------------------------- | :- |
-| [always-return](docs/rules/always-return.md)                         | Require returning inside each `then()` to create readable and reusable Promise chains. | ✅<wbr> ![foo][]<sup>⚠️</sup> |    |
+| [always-return](docs/rules/always-return.md)                         | Require returning inside each `then()` to create readable and reusable Promise chains. | ✅<wbr> <wbr>![foo][]<sup>⚠️</sup> |    |
 | [avoid-new](docs/rules/avoid-new.md)                                 | Disallow creating `new` promises outside of utility libs (use [pify][] instead).       | ✅<sup>🚫</sup>               |    |
 | [catch-or-return](docs/rules/catch-or-return.md)                     | Enforce the use of `catch()` on un-returned promises.                                  | ✅                            |    |
 | [no-callback-in-promise](docs/rules/no-callback-in-promise.md)       | Disallow calling `cb()` inside of a `then()` (use [nodeify][] instead).                | ✅<sup>⚠️</sup>               |    |
