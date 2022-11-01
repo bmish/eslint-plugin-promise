@@ -43,5 +43,10 @@ module.exports = {
         'promise/valid-params': 'warn',
       },
     },
+    foo: {
+      rules: {
+        'promise/always-return': 'warn',
+      },
+    },
   },
 }
