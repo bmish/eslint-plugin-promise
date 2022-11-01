@@ -100,7 +100,7 @@ or start with the recommended rule set:
 | [param-names](docs/rules/param-names.md)                             | Enforce consistent param names and ordering when creating new promises.                | ✅                                                               |    |
 | [prefer-await-to-callbacks](docs/rules/prefer-await-to-callbacks.md) | Prefer async/await to the callback pattern.                                            | <span style="white-space:nowrap">![foo][]<sup>⚠️</sup></span>   |    |
 | [prefer-await-to-then](docs/rules/prefer-await-to-then.md)           | Prefer `await` to `then()`/`catch()`/`finally()` for reading Promise values.           |                                                                 |    |
-| [valid-params](docs/rules/valid-params.md)                           | Enforces the proper number of arguments are passed to Promise functions.               | <span style="white-space:nowrap">✅<sup>⚠️</sup></span>          |    |
+| [valid-params](docs/rules/valid-params.md)                           | Enforces the proper number of arguments are passed to Promise functions.               | <span class="nowrap">✅<sup>⚠️</sup></span>          |    |
 
 <!-- end auto-generated rules list -->
 
