@@ -93,12 +93,12 @@ or start with the recommended rule set:
 | [no-multiple-resolved](docs/rules/no-multiple-resolved.md)           | Disallow creating new promises with paths that resolve multiple times.                 |                         |    |
 | [no-native](docs/rules/no-native.md)                                 | Require creating a `Promise` constructor before using it in an ES5 environment.        | ✅<sup>🚫</sup>          |    |
 | [no-nesting](docs/rules/no-nesting.md)                               | Disallow nested `then()` or `catch()` statements.                                      | ✅<sup>⚠️</sup>          |    |
-| [no-new-statics](docs/rules/no-new-statics.md)                       | Disallow calling `new` on a Promise static method.                                     | ✅                       | 🔧 |
+| [no-new-statics](docs/rules/no-new-statics.md)                       | Disallow calling `new` on a Promise static method.                                     | ![foo][] ✅              | 🔧 |
 | [no-promise-in-callback](docs/rules/no-promise-in-callback.md)       | Disallow using promises inside of callbacks.                                           | ✅<sup>⚠️</sup>          |    |
 | [no-return-in-finally](docs/rules/no-return-in-finally.md)           | Disallow return statements in `finally()`.                                             | ✅<sup>⚠️</sup>          |    |
 | [no-return-wrap](docs/rules/no-return-wrap.md)                       | Disallow wrapping values in `Promise.resolve` or `Promise.reject` when not needed.     | ✅                       |    |
 | [param-names](docs/rules/param-names.md)                             | Enforce consistent param names and ordering when creating new promises.                | ✅                       |    |
-| [prefer-await-to-callbacks](docs/rules/prefer-await-to-callbacks.md) | Prefer async/await to the callback pattern.                                            |                         |    |
+| [prefer-await-to-callbacks](docs/rules/prefer-await-to-callbacks.md) | Prefer async/await to the callback pattern.                                            | ![foo][]<sup>⚠️</sup>   |    |
 | [prefer-await-to-then](docs/rules/prefer-await-to-then.md)           | Prefer `await` to `then()`/`catch()`/`finally()` for reading Promise values.           |                         |    |
 | [valid-params](docs/rules/valid-params.md)                           | Enforces the proper number of arguments are passed to Promise functions.               | ✅<sup>⚠️</sup>          |    |
 
@@ -120,3 +120,5 @@ or start with the recommended rule set:
 [@aaditmshah]: https://github.com/aaditmshah
 [@macklinu]: https://github.com/macklinu
 [@xjamundx]: https://github.com/xjamundx
+
+[foo]: https://img.shields.io/badge/-foo-blue.svg

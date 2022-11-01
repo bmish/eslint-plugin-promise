@@ -46,6 +46,8 @@ module.exports = {
     foo: {
       rules: {
         'promise/always-return': 'warn',
+        'promise/prefer-await-to-callbacks': 'warn',
+        'promise/no-new-statics': 'error',
       },
     },
   },
